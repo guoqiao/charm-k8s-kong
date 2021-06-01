@@ -2,7 +2,7 @@
 
 ## Description
 
-TODO: Describe your charm in a few paragraphs of Markdown
+Kubernetes Charm for [Kong](https://konghq.com/), powered by [Charmed Operator Framework](https://github.com/canonical/operator).
 
 ## Usage
 
