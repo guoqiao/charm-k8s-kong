@@ -6,14 +6,14 @@
 import unittest
 from unittest.mock import Mock
 
-from charm import CharmK8SKongCharm
+from charm import K8SKongCharm
 from ops.model import ActiveStatus
 from ops.testing import Harness
 
 
 class TestCharm(unittest.TestCase):
     def setUp(self):
-        self.harness = Harness(CharmK8SKongCharm)
+        self.harness = Harness(K8SKongCharm)
         self.addCleanup(self.harness.cleanup)
         self.harness.begin()
 

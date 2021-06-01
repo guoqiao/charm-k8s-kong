@@ -22,7 +22,7 @@ from ops.model import ActiveStatus
 logger = logging.getLogger(__name__)
 
 
-class CharmK8SKongCharm(CharmBase):
+class K8SKongCharm(CharmBase):
     """Charm the service."""
 
     _stored = StoredState()
@@ -101,4 +101,4 @@ class CharmK8SKongCharm(CharmBase):
 
 
 if __name__ == "__main__":
-    main(CharmK8SKongCharm)
+    main(K8SKongCharm)
